@@ -27,7 +27,7 @@
 
 `pip install -r requirements.txt`
 
-`docker build -t django-billing-project-f Dockerfile .`
+`docker build -t django-billing-project -f Dockerfile .`
 
 `gunicorn djangoBillingProject.wsgi:application —bind localhost:8000`
 
